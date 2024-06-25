@@ -1,0 +1,28 @@
+.p404 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p404-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+.p404-text h4 {
+    text-align: center;
+}
+
+.p404-text button {
+    background-color: brown;
+    color: var(--text-white);
+}
+
+.p404-text button:hover {
+    background-color: rgb(100, 12, 12);
+}

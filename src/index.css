@@ -112,6 +112,8 @@ button {
   gap: 8px;
   border-radius: 8px;
   opacity: 0px;
+
+  cursor: pointer;
 }
 
 button.active {
@@ -121,4 +123,11 @@ button.active {
 button.news {
   border: 1.5px solid;
   border-image-source: linear-gradient(80.41deg, #38686E -6.45%, #741B7A 41.42%, #E18185 105.7%);
+}
+
+/* Link */
+
+a {
+  color: rgb(161, 29, 29);
+  text-decoration: none;
 }
