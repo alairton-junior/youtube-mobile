@@ -1,68 +1,124 @@
+/**
+* Documentation
+*
+* Foi adicionado além das propriedades raiz, classes que servem como direcionamento para a estrutura do projeto, 
+* como títulos, páragrafos e botões, principalmente questões de cores e estrutura dos elementos raiz.
+* 
+*/
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  /* Text Colors */
+
+  --title-color: #0f0f0f;
+  --icon-color: #000000;
+  --description-color: #606060;
+  --text-white: #ffffff;
+
+  /* Background Colors */
+  
+  --button-background-color: #f2f2f2;
+  --button-active-background-color: #0f0f0f;
+  
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
+/* Tipography */
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: var(--title-color);
+}
+
+h2 {
+  color: var(--title-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+h2.shorts--title {
+  color: var(--text-white);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+h4 {
+  color: var(--description-color);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+h4.shorts--description {
+  color: var(--text-white);
+  font-size: 0.75rem;  
+  font-weight: 700;
+  line-height: 14.06px;
+  text-align: left; 
+}
+
+p.navmenu {
+  font-size: 0.563rem;
+  font-weight: 500;
+  line-height: 10.55px;
+  text-align: left;
+
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  color: var(--title-color);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: center;
+  border: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button.active {
+  color: var(--text-white);
+}
+
+
+/* Buttons */
+
+button {
+  background-color: var(--button-background-color);
+  width: 87px;
+  height: 32px;
+  padding: 8px 12px 8px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+button.active {
+  background-color: var(--button-active-background-color);
+}
+
+button.news {
+  border: 1.5px solid;
+  border-image-source: linear-gradient(80.41deg, #38686E -6.45%, #741B7A 41.42%, #E18185 105.7%);
 }
