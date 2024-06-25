@@ -1,6 +1,8 @@
 /**
-* Documentation and How to use
-* 
+* Documentation
+*
+* Foi adicionado além das propriedades raiz, classes que servem como direcionamento para a estrutura do projeto, 
+* como títulos, páragrafos e botões, principalmente questões de cores e estrutura dos elementos raiz.
 * 
 */
 
@@ -29,6 +31,12 @@
   --button-background-color: #f2f2f2;
   --button-active-background-color: #0f0f0f;
   
+}
+
+body {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Tipography */
