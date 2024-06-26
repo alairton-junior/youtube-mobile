@@ -1,0 +1,34 @@
+.Explorer--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.explorer--items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    gap: 20px;
+    margin-left: 20px;
+
+    overflow: hidden;
+    overflow-x: scroll;
+    cursor: grab;
+}
+
+.explorer--items:active {
+    cursor: grabbing;
+}
+
+.explorer--items::-webkit-scrollbar {
+    display: none;
+}
+
+.explorer--items button {
+    text-wrap: nowrap;
+}

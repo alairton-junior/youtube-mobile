@@ -1,5 +1,8 @@
+import { Explorer } from "../../Components/Home/Explorer";
+
 export function Index () {
     return (
-        <h1>Index</h1>
+        <Explorer/>
+        
     )
 }
