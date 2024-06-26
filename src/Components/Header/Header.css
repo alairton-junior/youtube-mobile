@@ -11,3 +11,21 @@ header {
     flex-direction: row;
     gap: 20px;
 }
+
+.searchInput {
+    flex-grow: 1; 
+    margin: 0 40px;
+}
+
+.searchInput input { 
+    border-style:solid; 
+    border-width:2px; 
+    padding:11px; 
+    border-radius:27px; 
+    font-size:16px; 
+    border-color:#d4d4d4;  
+    width: 100%;
+}
+
+
+.searchInput input:focus { outline:none; } 
