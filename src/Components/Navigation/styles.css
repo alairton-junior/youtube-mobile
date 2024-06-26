@@ -1,9 +1,11 @@
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     border-top: 1px solid #E5E5E5;
+    z-index: 2;
+    background: white;
 }
 
 .nav-container {
