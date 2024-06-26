@@ -1,9 +1,7 @@
-import AvatarImg from '../../assets/imgs/Avatar.svg'
-
-export function Avatar() {
+export function Avatar({avatarImage}) {
     return (
         <>
-            <img src={AvatarImg} alt="Avatar" onClick={() => {alert('Avatar')}}/>
+            <img src={avatarImage} alt="Avatar" onClick={() => {alert('Avatar')}}/>
         </>
     )
 }
