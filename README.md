@@ -13,6 +13,7 @@ Projeto sendo desenvolvido para exibição de aula prática sobre a estrutura do
  - Alairton
  - Larissa
  - Sidney
+ - Esthefan 
 
 ## Pré-requisitos
 
