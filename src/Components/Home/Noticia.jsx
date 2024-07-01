@@ -4,7 +4,7 @@ import {Avatar} from '../Root/Avatar'
 
 export function Noticias ({image, title, description, avatarImage}) {
     return (
-        <>
+        <div>
             <img src={image} alt={title} width="100%" style={{marginTop: 10, width: 'unset', marginLeft: -20}} />
             <div style={{display: 'flex', gap: 10, alignItems: 'center', marginTop: '-10px'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: 10}}>
@@ -16,6 +16,6 @@ export function Noticias ({image, title, description, avatarImage}) {
                 </div>
             </div>
             <h4 className="description" style={{marginTop: -5, position: 'relative', left: 47}}>{description}</h4>
-        </>
+        </div>
     )
 }
