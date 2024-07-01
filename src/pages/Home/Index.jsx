@@ -24,14 +24,13 @@ export function Index () {
         <>
         <Explorer/>
         <div className="video-grid">
-            <div>
-                <Video 
+
+            <Video 
                     avatarImage={Avatar1}
                     image={Thumbinails1} 
                     title="Breaking! NASA discovers alien life on Mars " 
                     description="NASA • 99.2M views • Now"/>
-            </div>
-            
+        
             <Noticias
                 avatarImage={Avatar1}
                 image={Thumbinails2} 

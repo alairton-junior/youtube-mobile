@@ -1,6 +1,8 @@
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 16px;
-    padding: 16px;
+@media (min-width: 768px) {
+    .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 16px;
+        padding: 16px;
+    }
 }
