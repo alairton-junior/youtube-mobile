@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.question button {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    height: 35px;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.question .votes {
+    font-size: 14px;
+    color: #6e6e6e;
+    font-weight: 400;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-principal);
+    font-size: .8rem;
+}
+
+.actions button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.interactions {
+    display: flex;
+    gap: 1rem;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.likes span {
+    font-weight: 500;
+}
+
+.icon-comments {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.icon-comments span {
+    font-weight: 500;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments p span {
+    color: #6e6e6e;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+}
+
+.comment img {
+    height: 24px;
+    transition: filter 0.8s;
+    cursor: pointer;
+}
+
+.comment img:hover {
+    filter: brightness(1.5);
+}
+
+.comment input {
+    width: 100%;
+    height: 24px;
+    padding: 5px 132px 5px 11px;
+    border-radius: 12px;
+    border: none;
+    background: #F2F2F2;
+}
